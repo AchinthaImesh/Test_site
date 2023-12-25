@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Site For In My Personal Information </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c216754a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/1 Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hello..!! I'm <span> Achintha Imesh</span>,<br> From Kurunegala,<br> Sri Lanaka </h1>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+<!-- -------about-------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="Images/user2.png" alt="">
+                </div>
+                <div class="About-col-2">
+                    <h1 class ="sub-title">About Me</h1>
+                    <p>I am a passionate and
+                        dedicated individual with a
+                        strong desire to pursue a
+                        career in web
+                        development. My journey
+                        in this field began as a
+                        hobby, but it has quickly
+                        evolved into a genuine
+                        passion. I am fascinated by
+                        the endless possibilities of
+                        creating beautiful,
+                        functional websites and
+                        applications that can make
+                        a positive impact on
+                        people's lives.</p>
+
+
+                        <div class="tab-title">
+                            <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML/CSS/JS/Java</span><br>Web Development</li>
+                                <li><span>Mysql/MongoDB</span><br>Databases</li>
+                                <li><span>App Development</span><br>Bulding Android App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>Not yet</span><br>Not yet</li>
+                                <li><span>Not yet</span><br>Not yet</li>
+                                <li><span>Not yet</span><br>Not yet</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content " id="education">
+                            <ul>
+                                <li><span>2021</span><br>Certificate Course in Software Engineering at NIBM Institute</li>
+                                <li><span>2022</span><br>Diploma in Software Engineering at NIBM </li>
+                                <li><span>2023</span><br>HND in Software Engineering at NIBM </li>
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+   <!-- ---------services---------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class ="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                   qqqqqqqqqqqqqqqq  </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Web Development</h2>
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                   qqqqqqqqqqqqqqqqqqqqqqqqqqqq </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Development</h2>
+                <p>aaaaaaaaaaaaaaaaaa
+                   qqqqqqqqqqqqqqqqq  </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+
+    </div>
+   </div>
+   <!-- ---------portfolio----------- -->
+   <div id="Portfolio">
+    <div class="container">
+        <h1 class ="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Web sites</h3>
+                    <p>What kind of i did create Web sites </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Web sites</h3>
+                    <p>What kind of i did create Web sites </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Web sites</h3>
+                    <p>What kind of i did create Web sites </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- ------------contact------------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i>achinthaimesh653@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i></i>0771720956</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/achintha.imesh.129"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/achintha___imesh?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.link/uqla7c"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="Images/My-CV .pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Achintha. <i class="fa-solid fa-face-smile"></i>This is made by me</p>
+    </div>
+
+   </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents =document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+
+            function openmenu(){
+                sidemenu .style.right ="0";
+
+            }
+            function closemenu(){
+                sidemenu .style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzQse0kRfC9DVokGVgPQFhpmAV9WIr4HNJDjSAYHDn4dFfacDzLeoeGvIuWgi2NW-AG/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML= "Message Sent Successfully!!"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    
+</body>
+</html>
